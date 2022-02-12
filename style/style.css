@@ -1,0 +1,231 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+html, body {
+    height: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+}
+img {
+    vertical-align: top;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, p {
+    font-weight: inherit;
+    font-size: inherit;
+}
+.container {
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background: url('../img/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 793px;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 504px;
+    height: 104px;
+}
+.header-top__logo {
+    color: black;
+    font-size: 24px;
+}
+.header-top__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+.menu-link {
+    color: #737373;
+    font-size: 14px;
+}
+.header-center {
+    margin-bottom: 90px;
+}
+.header-center__name {
+    font-size: 58px;
+    color: #252b42;
+    max-width: 400px;
+    margin-top: 80px;
+}
+.header-center__text {
+    color: #737373;
+    font-size: 20px;
+    max-width: 380px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+
+}
+.quote {
+    padding: 10px 36px;
+    border: #ff7b47 solid 1px;
+    border-radius: 37px;
+    background-color: #ff7b47;
+    color: #fff;
+    font-size: 14px;
+}
+.more {
+    padding: 10px 36px;
+    border: #0d5c63 solid 1px;
+    border-radius: 37px;
+    color: #0d5c63;
+    font-size: 14px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom__cards {
+    max-width: 328px;
+    background-color: #fff;
+    padding: 35px 40px;
+}
+.header-bottom__card-green {
+    max-width: 328px;
+    background-color: #0d5c63;
+    padding: 35px 40px;
+}
+.header-bottom__name {
+    font-size: 24px;
+    color: #252b42;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-bottom__name-green {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-bottom__text {
+    font-size: 14px;
+    color: #737373;
+}
+.header-bottom__text-green {
+    font-size: 14px;
+    color: #fff;
+}
+.info-top {
+    margin-top: 98px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.info-top__name {
+    color: #252b42;
+    font-size: 40px;
+}
+.info-top__text {
+    font-size: 14px;
+    color: #737373;
+    max-width: 511px;
+    text-align: center;
+}
+.header-title {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.info-top__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.info-top__card {
+    padding: 30px 30.5px;
+    background-color: #fff;
+    max-width: 230px;
+    min-height: 209px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-top__card-statistics {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.info-top__card-text {
+    font-size: 16px;
+    color: #737373;
+    font-weight: bold;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+.practice {
+}
+.container {
+}
+.pract {
+}
+.pract-name {
+    padding: 45px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-top__name {
+}
+.info-top__text {
+}
+.pract-cards {
+    max-width: 1049px;
+    display: flex;
+     
+}
+.pract-card {
+    background-color: #fff;
+    display: flex;
+    max-width: 241px;
+}
+.pract-card__text {
+    padding: 30px 30px;
+}
+.pract-card__text-name {
+    max-width: 135px;
+    font-size: 16px;
+    color: #252b42;
+}
+.pract-card__text-text {
+    max-width: 179px;
+    font-size: 14px;
+    color: #737373;
+}
+.pract-card__image {
+}
+.pract-card__img {
+}
